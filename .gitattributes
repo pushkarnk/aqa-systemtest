@@ -1,3 +1,21 @@
+# The default for text files
+* git-encoding=iso8859-1 zos-working-tree-encoding=ibm-1047
+
+# Specific types of files remain as ASCII
+*.xml git-encoding=iso8859-1 zos-working-tree-encoding=iso8859-1
+*.dtd git-encoding=iso8859-1 zos-working-tree-encoding=iso8859-1
+*.xsd git-encoding=iso8859-1 zos-working-tree-encoding=iso8859-1
+*.classpath git-encoding=iso8859-1 zos-working-tree-encoding=iso8859-1
+*.jti git-encoding=iso8859-1 zos-working-tree-encoding=iso8859-1
+*.jtx git-encoding=iso8859-1 zos-working-tree-encoding=iso8859-1
+*.kfl git-encoding=iso8859-1 zos-working-tree-encoding=iso8859-1
+
+.gitattributes git-encoding=iso8859-1 zos-working-tree-encoding=iso8859-1
+.gitattributes.zos git-encoding=iso8859-1 zos-working-tree-encoding=iso8859-1
+.gitignore git-encoding=iso8859-1 zos-working-tree-encoding=iso8859-1
+
+openjdk.test.jlm/src/test.jlm/net/adoptopenjdk/test/jlm/testkeys git-encoding=iso8859-1 zos-working-tree-encoding=iso8859-1
+
 # Default - treat files as text as convert line ending to LF
 * text eol=lf
 
